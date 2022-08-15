@@ -179,6 +179,7 @@ body{
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    cursor: pointer;
     letter-spacing: 0.03em;
     color: var(--primary-color-text);
     background-color: #FFFFFF;}
@@ -244,6 +245,11 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;}
+
+.link-footer-address:hover,
+.link-footer-address:focus{
+    color: var(--accent-color);
+}
 
 .link-footer-contact{
     font-style: normal;
